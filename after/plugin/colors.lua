@@ -1,1 +1,3 @@
-vim.cmd[[colorscheme sonokai]]
+require("tokyonight").setup()
+
+vim.cmd.colorscheme "tokyonight"
